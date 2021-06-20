@@ -11,7 +11,7 @@ An Open Source Converter Bot scrapped from [Anydl Repo](https://github.com/spech
 
 ### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mahadev786/ConvertToVideo )
 
 ### The Normal Way
 
