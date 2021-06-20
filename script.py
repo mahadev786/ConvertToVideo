@@ -7,10 +7,10 @@ class script(object):
 
 See /help for more!
 
-©️ <a href="https://t.me/prgofficial">🅼คгςยร  🅷๏ɭɭ๏ฬคץ</a>
+©️ <a href="https://t.me/Deva_TG_Update">Deva TG Bots</a>
     """
     BANNED_USER_TEXT = "Sorry, You're BANNED!"
-    UPGRADE_TEXT = "ping @prgofficial"
+    UPGRADE_TEXT = "ping @m_discuss_bot"
     REPLY_TO_FILE = "Reply the command to any valid media."
     DOWNLOAD_START = "<b>Give Me Some Time Bruh!!(〒﹏〒)</b>"
     UPLOAD_START = "<b>Hurray... Completed Downloading(;ŏ﹏ŏ)</b>"
@@ -30,4 +30,4 @@ See /help for more!
 
 3. Send me any Telegram File.
 
-4. Reply to that message with /conv"""
+4. Reply to that message with /c2v"""
