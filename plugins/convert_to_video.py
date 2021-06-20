@@ -35,7 +35,7 @@ from database.database import *
 from PIL import Image
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["conv"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["c2v"]))
 async def convert_to_video(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
     #if update.from_user.id not in Config.AUTH_USERS:    #(If u wanna make ur bot private😜)
@@ -45,7 +45,7 @@ async def convert_to_video(bot, update):
             reply_to_message_id=update.message_id
         )
         return
-    TRChatBase(update.from_user.id, update.text, "conv")
+    TRChatBase(update.from_user.id, update.text, "c2v")
     if update.reply_to_message is not None:
         description = script.CUSTOM_CAPTION
         download_location = Config.DOWNLOAD_LOCATION + "/"
@@ -151,7 +151,7 @@ async def convert_to_video(bot, update):
             except:
                 pass
             await bot.edit_message_text(
-                text="""<b>Completed Successfully 🥳🥳</b>\n\n©️ <a href="https://t.me/prgofficial">🅼คгςยร  🅷๏ɭɭ๏ฬคץ</a>""",
+                text="""<b>Completed Successfully 🥳🥳</b>\n\n©️ <a href="https://t.me/Deva_TG_Update">Deva</a>""",
                 chat_id=update.chat.id,
                 message_id=a.message_id,
                 disable_web_page_preview=True
